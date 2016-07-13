@@ -1,0 +1,1001 @@
+[ {
+"id" : 9044,
+"name" : "Serena Williams ",
+"birthdate" : "26 Sep 1981",
+"country" : "United States",
+"height" : 175,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [1,1,1,1,3,12,4,1,2,7,95,11,7,3,1,6,6,4,20,99]
+},
+{
+"id" : 15292,
+"name" : "Garbiñe Muguruza ",
+"birthdate" : "08 Oct 1993",
+"country" : "Spain",
+"height" : 182,
+"weight" : 73,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [2,3,21,64,104,249,432,687]
+},
+{
+"id" : 11530,
+"name" : "Agnieszka Radwanska ",
+"birthdate" : "06 Mar 1989",
+"country" : "Poland",
+"height" : 173,
+"weight" : 56,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [3,5,6,5,4,8,14,10,10,26,57,381,941]
+},
+{
+"id" : 10768,
+"name" : "Angelique Kerber ",
+"birthdate" : "18 Jan 1988",
+"country" : "Germany",
+"height" : 173,
+"weight" : 68,
+"plays" : "Left-handed (two-handed backhand)",
+"rank" : [4,10,10,9,5,32,47,106,108,84,214,261,375,433]
+},
+{
+"id" : 13516,
+"name" : "Simona Halep ",
+"birthdate" : "27 Sep 1991",
+"country" : "Romania",
+"height" : 168,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [5,2,3,11,47,53,81,210,352]
+},
+{
+"id" : 11289,
+"name" : "Victoria Azarenka ",
+"birthdate" : "31 Jul 1989",
+"country" : "Belarus",
+"height" : 183,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [6,22,32,2,1,3,10,7,15,30,92,146,506]
+},
+{
+"id" : 8754,
+"name" : "Roberta Vinci ",
+"birthdate" : "18 Feb 1983",
+"country" : "Italy",
+"height" : 163,
+"weight" : 60,
+"plays" : "Right-handed (one-handed backhand)",
+"rank" : [7,15,49,14,16,23,38,64,83,63,102,41,115,116,182,172,324,409,639]
+},
+{
+"id" : 9027,
+"name" : "Venus Williams ",
+"birthdate" : "17 Jun 1980",
+"country" : "United States",
+"height" : 185,
+"weight" : 72,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [8,7,19,49,24,103,5,6,6,8,48,10,9,11,2,3,3,3,5,22,216,204]
+},
+{
+"id" : 10661,
+"name" : "Carla Suárez Navarro ",
+"birthdate" : "03 Sep 1988",
+"country" : "Spain",
+"height" : 162,
+"weight" : 62,
+"plays" : "Right-handed (one-handed backhand)",
+"rank" : [12,13,18,17,34,56,57,34,50,169,289,358,613]
+},
+{
+"id" : 14542,
+"name" : "Caroline Garcia ",
+"birthdate" : "16 Oct 1993",
+"country" : "France",
+"height" : 177,
+"weight" : 61,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [32,35,38,75,138,146,280,681]
+},
+{
+"id" : 11069,
+"name" : "Shuai Zhang ",
+"birthdate" : "21 Jan 1989",
+"country" : "China",
+"height" : 177,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [63,186,62,51,122,126,91,153,212,155,200,648,901]
+},
+{
+"id" : 15601,
+"name" : "Denisa Allertova ",
+"birthdate" : "07 Mar 1993",
+"country" : "Czech Republic",
+"height" : 180,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [82,63,110,327,635,480,943]
+},
+{
+"id" : 14448,
+"name" : "Lara Arruabarrena ",
+"birthdate" : "20 Mar 1992",
+"country" : "Spain",
+"height" : 166,
+"weight" : 58,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [87,86,88,100,77,167,396,458,725]
+},
+{
+"id" : 16153,
+"name" : "Timea Babos ",
+"birthdate" : "10 May 1993",
+"country" : "Hungary",
+"height" : 179,
+"weight" : 68,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [44,85,99,88,64,153,329,700]
+},
+{
+"id" : 10874,
+"name" : "Timea Bacsinszky ",
+"birthdate" : "08 Jun 1989",
+"country" : "Switzerland",
+"height" : 170,
+"weight" : 62,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [11,12,48,285,185,242,51,54,53,123,121,392,247,455]
+},
+{
+"id" : 14516,
+"name" : "Mona Barthel ",
+"birthdate" : "11 Jul 1990",
+"country" : "Germany",
+"height" : 185,
+"weight" : 69,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [68,44,43,34,39,67,208,356,516,937]
+},
+{
+"id" : 16073,
+"name" : "Annika Beck ",
+"birthdate" : "16 Feb 1994",
+"country" : "Germany",
+"height" : 170,
+"weight" : 59,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [43,56,55,58,78,234,380,1099]
+},
+{
+"id" : 12402,
+"name" : "Irina-Camelia Begu ",
+"birthdate" : "26 Aug 1990",
+"country" : "Romania",
+"height" : 181,
+"weight" : 67,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [27,31,42,124,52,40,214,230,231,710,974]
+},
+{
+"id" : 18911,
+"name" : "Belinda Bencic ",
+"birthdate" : "10 Mar 1997",
+"country" : "Switzerland",
+"height" : 175,
+"weight" : 63,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [13,14,33,212,626,1059]
+},
+{
+"id" : 13772,
+"name" : "Kiki Bertens ",
+"birthdate" : "10 Dec 1991",
+"country" : "Netherlands",
+"height" : 182,
+"weight" : 74,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [28,101,69,87,63,184,230,569,973]
+},
+{
+"id" : 1078,
+"name" : "Kateryna Bondarenko ",
+"birthdate" : "08 Aug 1986",
+"country" : "Ukraine",
+"height" : 175,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [60,88,204,132,81,113,32,63,44,118,125,333,354,813,827]
+},
+{
+"id" : 15218,
+"name" : "Eugenie Bouchard ",
+"birthdate" : "25 Feb 1994",
+"country" : "Canada",
+"height" : 178,
+"weight" : 61,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [48,48,7,32,144,302,538,1068,1104]
+},
+{
+"id" : 16024,
+"name" : "Madison Brengle ",
+"birthdate" : "03 Apr 1990",
+"country" : "United States",
+"height" : 168,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [58,40,94,153,190,192,189,155,225,240,508,777]
+},
+{
+"id" : 13152,
+"name" : "Naomi Broady ",
+"birthdate" : "28 Feb 1990",
+"country" : "United Kingdom",
+"height" : 189,
+"weight" : 74,
+"plays" : "Right-handed (one-handed backhand)",
+"rank" : [83,118,158,256,277,201,232,444,444,713,1464]
+},
+{
+"id" : 11570,
+"name" : "Cagla Buyukakcay ",
+"birthdate" : "28 Sep 1989",
+"country" : "Turkey",
+"height" : 172,
+"weight" : 58,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [77,158,141,149,186,197,192,310,390,457,668]
+},
+{
+"id" : 20807,
+"name" : "Louisa Chirico ",
+"birthdate" : "16 May 1996",
+"country" : "United States",
+"height" : 175,
+"weight" : 64,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [73,120,189,312,912]
+},
+{
+"id" : 12135,
+"name" : "Dominika Cibulkova ",
+"birthdate" : "06 May 1989",
+"country" : "Slovakia",
+"height" : 161,
+"weight" : 55,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [18,38,11,23,15,18,31,30,19,52,156,555]
+},
+{
+"id" : 11720,
+"name" : "Sorana Cirstea ",
+"birthdate" : "07 Apr 1990",
+"country" : "Romania",
+"height" : 176,
+"weight" : 59,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [85,244,93,22,27,60,95,46,37,106,348,711,893]
+},
+{
+"id" : 11402,
+"name" : "Alizé Cornet ",
+"birthdate" : "22 Jan 1990",
+"country" : "France",
+"height" : 173,
+"weight" : 63,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [61,43,20,27,44,89,78,50,16,57,189,308,861]
+},
+{
+"id" : 14837,
+"name" : "Zarina Diyas ",
+"birthdate" : "18 Oct 1993",
+"country" : "Kazakhstan",
+"height" : 172,
+"weight" : 64,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [99,52,34,163,265,223,173,206]
+},
+{
+"id" : 13434,
+"name" : "Misaki Doi ",
+"birthdate" : "29 Apr 1991",
+"country" : "Japan",
+"height" : 159,
+"weight" : 55,
+"plays" : "Left-handed (two-handed backhand)",
+"rank" : [49,60,122,89,97,106,158,200,613]
+},
+{
+"id" : 11819,
+"name" : "Mariana Duque-Mariño ",
+"birthdate" : "12 Aug 1989",
+"country" : "Colombia",
+"height" : 169,
+"weight" : 62,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [74,75,137,101,140,190,128,191,110,201,392,803]
+},
+{
+"id" : 10077,
+"name" : "Sara Errani ",
+"birthdate" : "29 Apr 1987",
+"country" : "Italy",
+"height" : 164,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [21,20,15,7,6,45,43,48,42,70,171,359,521,569,742]
+},
+{
+"id" : 13733,
+"name" : "Irina Falconi ",
+"birthdate" : "04 May 1990",
+"country" : "United States",
+"height" : 163,
+"weight" : 61,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [75,73,114,146,148,80,217,468,761,475,1054]
+},
+{
+"id" : 9680,
+"name" : "Kirsten Flipkens ",
+"birthdate" : "10 Jan 1986",
+"country" : "Belgium",
+"height" : 165,
+"weight" : 55,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [51,93,46,20,54,194,77,81,104,363,105,201,169,363,560,1126]
+},
+{
+"id" : 19065,
+"name" : "Anna-Lena Friedsam ",
+"birthdate" : "01 Feb 1994",
+"country" : "Germany",
+"height" : 174,
+"weight" : 68,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [57,99,87,126,189,655]
+},
+{
+"id" : 17390,
+"name" : "Margarita Gasparyan ",
+"birthdate" : "01 Sep 1994",
+"country" : "Russia",
+"height" : 183,
+"weight" : 73,
+"plays" : "Right-handed (one-handed backhand)",
+"rank" : [59,62,217,318,231,648]
+},
+{
+"id" : 15057,
+"name" : "Daria Gavrilova ",
+"birthdate" : "05 Mar 1994",
+"country" : "Australia",
+"height" : 166,
+"weight" : 61,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [56,36,233,144,215,383,515]
+},
+{
+"id" : 14431,
+"name" : "Nicole Gibbs ",
+"birthdate" : "03 Mar 1993",
+"country" : "United States",
+"height" : 168,
+"weight" : 0,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [76,119,92,184,233,620,376,620,522]
+},
+{
+"id" : 13793,
+"name" : "Camila Giorgi ",
+"birthdate" : "30 Dec 1991",
+"country" : "Italy",
+"height" : 168,
+"weight" : 54,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [67,34,35,93,79,149,244,285,480,833,944]
+},
+{
+"id" : 12610,
+"name" : "Julia Goerges ",
+"birthdate" : "02 Nov 1988",
+"country" : "Germany",
+"height" : 180,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [78,50,75,73,18,21,40,78,102,131,425,1118]
+},
+{
+"id" : 13179,
+"name" : "Polona Hercog ",
+"birthdate" : "20 Jan 1991",
+"country" : "Slovenia",
+"height" : 185,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [86,71,95,66,80,36,48,71,243,345,717]
+},
+{
+"id" : 20862,
+"name" : "Nao Hibino ",
+"birthdate" : "28 Nov 1994",
+"country" : "Japan",
+"height" : 163,
+"weight" : 63,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [70,78,207,291,578]
+},
+{
+"id" : 9419,
+"name" : "Su-Wei Hsieh ",
+"birthdate" : "04 Jan 1986",
+"country" : "Taiwan",
+"height" : 169,
+"weight" : 57,
+"plays" : "Right-handed (two-handed both sides)",
+"rank" : [69,107,144,85,25,172,361,318,79,143,140,154,426,653,262,165]
+},
+{
+"id" : 10999,
+"name" : "Ana Ivanovic ",
+"birthdate" : "06 Nov 1987",
+"country" : "Serbia",
+"height" : 184,
+"weight" : 69,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [25,16,5,16,13,22,17,22,5,4,14,16,97,705]
+},
+{
+"id" : 3932,
+"name" : "Jelena Jankovic ",
+"birthdate" : "28 Feb 1985",
+"country" : "Serbia",
+"height" : 177,
+"weight" : 59,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [24,21,16,8,22,14,8,8,1,3,12,22,28,85,194,361]
+},
+{
+"id" : 23204,
+"name" : "Daria Kasatkina ",
+"birthdate" : "07 May 1997",
+"country" : "Russia",
+"height" : 170,
+"weight" : 62,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [33,72,370]
+},
+{
+"id" : 16049,
+"name" : "Madison Keys ",
+"birthdate" : "17 Feb 1995",
+"country" : "United States",
+"height" : 178,
+"weight" : 66,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [9,18,31,37,149,315,483,621]
+},
+{
+"id" : 10617,
+"name" : "Karin Knapp ",
+"birthdate" : "28 Jun 1987",
+"country" : "Italy",
+"height" : 180,
+"weight" : 72,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [90,51,56,41,123,158,478,205,80,51,123,306,594,746]
+},
+{
+"id" : 13120,
+"name" : "Johanna Konta ",
+"birthdate" : "17 May 1991",
+"country" : "United Kingdom",
+"height" : 180,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [19,47,150,112,153,305,248,360,668]
+},
+{
+"id" : 17980,
+"name" : "Anett Kontaveit ",
+"birthdate" : "24 Dec 1995",
+"country" : "Estonia",
+"height" : 174,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [95,91,166,228,436,573]
+},
+{
+"id" : 16952,
+"name" : "Danka Kovinic ",
+"birthdate" : "18 Nov 1994",
+"country" : "Montenegro",
+"height" : 169,
+"weight" : 67,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [52,58,109,170,295,354,687]
+},
+{
+"id" : 15789,
+"name" : "Kateryna Kozlova ",
+"birthdate" : "20 Feb 1994",
+"country" : "Ukraine",
+"height" : 175,
+"weight" : 62,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [97,165,135,204,192,343,374,916]
+},
+{
+"id" : 4467,
+"name" : "Svetlana Kuznetsova ",
+"birthdate" : "27 Jun 1985",
+"country" : "Russia",
+"height" : 174,
+"weight" : 73,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [14,25,28,21,72,19,27,3,8,2,4,18,5,36,43,259,889]
+},
+{
+"id" : 13403,
+"name" : "Petra Kvitova ",
+"birthdate" : "08 Mar 1990",
+"country" : "Czech Republic",
+"height" : 182,
+"weight" : 70,
+"plays" : "Left-handed (two-handed backhand)",
+"rank" : [10,6,4,6,8,2,34,62,44,157,773]
+},
+{
+"id" : 10884,
+"name" : "Johanna Larsson ",
+"birthdate" : "17 Aug 1988",
+"country" : "Sweden",
+"height" : 174,
+"weight" : 66,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [54,55,70,83,73,59,68,170,169,314,382,491,1183]
+},
+{
+"id" : 4939,
+"name" : "Varvara Lepchenko ",
+"birthdate" : "21 May 1986",
+"country" : "United States",
+"height" : 180,
+"weight" : 72,
+"plays" : "Left-handed (two-handed backhand)",
+"rank" : [64,46,36,53,21,110,79,114,125,141,93,131,230,517,606]
+},
+{
+"id" : 14283,
+"name" : "Magda Linette ",
+"birthdate" : "12 Feb 1992",
+"country" : "Poland",
+"height" : 171,
+"weight" : 59,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [92,89,117,148,296,248,194,1008]
+},
+{
+"id" : 11771,
+"name" : "Sabine Lisicki ",
+"birthdate" : "22 Sep 1989",
+"country" : "Germany",
+"height" : 178,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [81,32,27,15,37,15,179,23,54,237,497,437,951]
+},
+{
+"id" : 4838,
+"name" : "Mirjana Lucic-Baroni ",
+"birthdate" : "09 Mar 1982",
+"country" : "Croatia",
+"height" : 181,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [53,67,61,104,108,116,105,288,423,454,335,202,191]
+},
+{
+"id" : 10895,
+"name" : "Ekaterina Makarova ",
+"birthdate" : "07 Jun 1988",
+"country" : "Russia",
+"height" : 180,
+"weight" : 65,
+"plays" : "Left-handed (two-handed backhand)",
+"rank" : [35,23,12,24,20,52,50,60,48,108,264,258,381]
+},
+{
+"id" : 5667,
+"name" : "Bethanie Mattek-Sands ",
+"birthdate" : "23 Mar 1985",
+"country" : "United States",
+"height" : 168,
+"weight" : 66,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [84,61,175,47,173,55,59,152,39,112,104,171,166,135,270,338]
+},
+{
+"id" : 14078,
+"name" : "Christina McHale ",
+"birthdate" : "11 May 1992",
+"country" : "United States",
+"height" : 170,
+"weight" : 62,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [65,64,54,68,33,42,115,218,425,712]
+},
+{
+"id" : 14760,
+"name" : "Kristina Mladenovic ",
+"birthdate" : "14 May 1993",
+"country" : "France",
+"height" : 184,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [31,29,81,56,76,183,354,202,1005]
+},
+{
+"id" : 13540,
+"name" : "Kurumi Nara ",
+"birthdate" : "30 Dec 1991",
+"country" : "Japan",
+"height" : 155,
+"weight" : 53,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [93,83,44,76,157,144,131,174,463]
+},
+{
+"id" : 10091,
+"name" : "Monica Niculescu ",
+"birthdate" : "25 Sep 1987",
+"country" : "Romania",
+"height" : 168,
+"weight" : 63,
+"plays" : "Right-handed (two-handed both sides)",
+"rank" : [47,39,47,60,58,30,83,101,47,179,222,268,430,451,875]
+},
+{
+"id" : 20431,
+"name" : "Naomi Osaka ",
+"birthdate" : "16 Oct 1997",
+"country" : "Japan",
+"height" : 180,
+"weight" : 69,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [91,203,250,430,1028]
+},
+{
+"id" : 20365,
+"name" : "Jelena Ostapenko ",
+"birthdate" : "08 Jun 1997",
+"country" : "Latvia",
+"height" : 177,
+"weight" : 68,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [34,79,308,672,892]
+},
+{
+"id" : 6673,
+"name" : "Pauline Parmentier ",
+"birthdate" : "31 Jan 1986",
+"country" : "France",
+"height" : 175,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [89,116,79,225,66,74,102,109,62,59,197,207,261,493]
+},
+{
+"id" : 13013,
+"name" : "Anastasia Pavlyuchenkova ",
+"birthdate" : "03 Jul 1991",
+"country" : "Russia",
+"height" : 177,
+"weight" : 72,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [23,28,25,26,36,16,21,41,45,281,402]
+},
+{
+"id" : 6578,
+"name" : "Flavia Pennetta ",
+"birthdate" : "25 Feb 1982",
+"country" : "Italy",
+"height" : 172,
+"weight" : 58,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [15,8,13,31,45,20,24,12,13,40,28,23,38,69,95,289,297,251,659,895]
+},
+{
+"id" : 10937,
+"name" : "Teliana Pereira ",
+"birthdate" : "20 Jul 1988",
+"country" : "Brazil",
+"height" : 168,
+"weight" : 62,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [88,45,106,90,175,339,540,393,213,604,884,936]
+},
+{
+"id" : 10087,
+"name" : "Andrea Petkovic ",
+"birthdate" : "09 Sep 1987",
+"country" : "Germany",
+"height" : 180,
+"weight" : 69,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [38,24,14,39,143,10,32,56,315,100,238,338,416]
+},
+{
+"id" : 10365,
+"name" : "Tsvetana Pironkova ",
+"birthdate" : "13 Sep 1987",
+"country" : "Bulgaria",
+"height" : 180,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [71,59,39,108,42,46,35,99,46,98,62,88,295,344,553]
+},
+{
+"id" : 13184,
+"name" : "Karolina Pliskova ",
+"birthdate" : "21 Mar 1992",
+"country" : "Czech Republic",
+"height" : 186,
+"weight" : 72,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [17,11,24,67,120,159,203,228,427,860,1168]
+},
+{
+"id" : 17033,
+"name" : "Monica Puig ",
+"birthdate" : "27 Sep 1993",
+"country" : "Puerto Rico",
+"height" : 170,
+"weight" : 64,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [36,92,60,55,127,228,695]
+},
+{
+"id" : 16953,
+"name" : "Yulia Putintseva ",
+"birthdate" : "07 Jan 1995",
+"country" : "Kazakhstan",
+"height" : 163,
+"weight" : 59,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [39,74,113,105,121,241,725]
+},
+{
+"id" : 12091,
+"name" : "Alison Riske ",
+"birthdate" : "03 Jul 1990",
+"country" : "United States",
+"height" : 175,
+"weight" : 66,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [80,97,45,57,179,135,118,222,895,627]
+},
+{
+"id" : 16573,
+"name" : "Shelby Rogers ",
+"birthdate" : "13 Oct 1992",
+"country" : "United States",
+"height" : 175,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [62,146,72,123,217,434,341]
+},
+{
+"id" : 11827,
+"name" : "Magdalena Rybarikova ",
+"birthdate" : "04 Oct 1988",
+"country" : "Slovakia",
+"height" : 180,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [94,77,51,38,62,72,104,45,58,279,330,302,924]
+},
+{
+"id" : 9869,
+"name" : "Lucie Safarova ",
+"birthdate" : "04 Feb 1987",
+"country" : "Czech Republic",
+"height" : 177,
+"weight" : 62,
+"plays" : "Left-handed (two-handed backhand)",
+"rank" : [29,9,17,29,17,25,33,42,65,24,41,50,185,533]
+},
+{
+"id" : 17071,
+"name" : "Aliaksandra Sasnovich ",
+"birthdate" : "22 Mar 1994",
+"country" : "Belarus",
+"height" : 174,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [98,103,142,135,534,830,717]
+},
+{
+"id" : 17704,
+"name" : "Anna Karolina Schmiedlova ",
+"birthdate" : "13 Sep 1994",
+"country" : "Slovakia",
+"height" : 176,
+"weight" : 63,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [40,26,73,74,212,634]
+},
+{
+"id" : 13196,
+"name" : "Anastasija Sevastova ",
+"birthdate" : "13 Apr 1990",
+"country" : "Latvia",
+"height" : 169,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [66,110,181,94,45,83,194,267,529]
+},
+{
+"id" : 9499,
+"name" : "Maria Sharapova ",
+"birthdate" : "19 Apr 1987",
+"country" : "Russia",
+"height" : 188,
+"weight" : 59,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [37,4,2,4,2,4,18,14,9,5,2,4,4,32,186]
+},
+{
+"id" : 10462,
+"name" : "Yaroslava Shvedova ",
+"birthdate" : "12 Sep 1987",
+"country" : "Kazakhstan",
+"height" : 180,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [96,82,66,81,29,206,39,53,91,89,132,315,756,494]
+},
+{
+"id" : 10252,
+"name" : "Laura Siegemund ",
+"birthdate" : "04 Mar 1988",
+"country" : "Germany",
+"height" : 168,
+"weight" : 62,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [42,90,161,235,383,243,225,227,307,319,367,353,847,601,1235]
+},
+{
+"id" : 14824,
+"name" : "Sloane Stephens ",
+"birthdate" : "20 Mar 1993",
+"country" : "United States",
+"height" : 170,
+"weight" : 61,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [22,30,37,12,38,97,198,802,496]
+},
+{
+"id" : 7941,
+"name" : "Samantha Stosur ",
+"birthdate" : "30 Mar 1984",
+"country" : "Australia",
+"height" : 175,
+"weight" : 68,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [16,27,23,18,9,6,6,13,52,47,29,46,65,153,265,276,682]
+},
+{
+"id" : 8035,
+"name" : "Barbora Strycova ",
+"birthdate" : "28 Mar 1986",
+"country" : "Czech Republic",
+"height" : 164,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [26,41,26,92,92,44,67,69,76,156,164,142,56,161,222]
+},
+{
+"id" : 15788,
+"name" : "Elina Svitolina ",
+"birthdate" : "12 Sep 1994",
+"country" : "Ukraine",
+"height" : 174,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [20,19,29,40,156,269,498]
+},
+{
+"id" : 16259,
+"name" : "Patricia Maria Tig ",
+"birthdate" : "27 Jul 1994",
+"country" : "Romania",
+"height" : 175,
+"weight" : 68,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [100,115,243,808,415,735]
+},
+{
+"id" : 14447,
+"name" : "Lesia Tsurenko ",
+"birthdate" : "30 May 1989",
+"country" : "Ukraine",
+"height" : 174,
+"weight" : 67,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [41,33,96,70,102,120,184,265,353,663]
+},
+{
+"id" : 10548,
+"name" : "Elena Vesnina ",
+"birthdate" : "01 Aug 1986",
+"country" : "Russia",
+"height" : 176,
+"weight" : 65,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [50,111,65,25,69,57,53,24,78,55,44,111,286,278]
+},
+{
+"id" : 13622,
+"name" : "Qiang Wang ",
+"birthdate" : "14 Jan 1992",
+"country" : "China",
+"height" : 172,
+"weight" : 60,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [72,114,100,217,193,270,291,363,556,778,896]
+},
+{
+"id" : 16047,
+"name" : "Heather Watson ",
+"birthdate" : "19 May 1992",
+"country" : "United Kingdom",
+"height" : 170,
+"weight" : 63,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [55,54,50,119,49,92,176,588]
+},
+{
+"id" : 11787,
+"name" : "Yanina Wickmayer ",
+"birthdate" : "20 Oct 1989",
+"country" : "Belgium",
+"height" : 182,
+"weight" : 68,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [46,49,67,59,23,26,23,16,69,221,534]
+},
+{
+"id" : 12631,
+"name" : "Caroline Wozniacki ",
+"birthdate" : "11 Jul 1990",
+"country" : "Denmark",
+"height" : 177,
+"weight" : 63,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [45,17,8,10,10,1,1,4,12,64,237]
+},
+{
+"id" : 15339,
+"name" : "Saisai Zheng ",
+"birthdate" : "05 Feb 1994",
+"country" : "China",
+"height" : 170,
+"weight" : 62,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [79,70,97,162,133,276,661,718]
+},
+{
+"id" : 13656,
+"name" : "Coco Vandeweghe ",
+"birthdate" : "06 Dec 1991",
+"country" : "United States",
+"height" : 185,
+"weight" : 70,
+"plays" : "Right-handed (two-handed backhand)",
+"rank" : [30,37,40,110,95,127,114,354,405,746]
+}
+]

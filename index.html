@@ -61,13 +61,16 @@ body {
 <h2>There is some geographical trend in top-100 players?</h2>
 <div id="wtamap" width=100%>
 </div>
+<h2>WTA head-to-head</h2>
+<div id="h2h">
+</div>
 <h1>Disclaimer</h1>
 <p>
 There are trends in top-100 WTA players? how they behave in their careers?
 what would be the key points to say: "this one will be a star"?<br>
 I tried to answer that using public data from WTA website (before Wimbledon 2016!) as part of my
 research visit at <a href=http://www.scalefreelabs.co>ScaleFreeLabs</a>,
-where I was learning about dataviz with my friend and expert Dr. Alvaro Graves(<a href=http://www.twitter.com/alvarograves>@alvarograves</a>.
+where I was learning about dataviz with my friend and expert Dr. Alvaro Graves(<a href=http://www.twitter.com/alvarograves>@alvarograves</a>).
 He told me that for practise I have to use public data from a subject that 
 passionated me and that I could understand.<br>
 Questions and comments are welcome via <a href=http://www.twitter.com/madestro>Twitter</a>.
@@ -98,11 +101,6 @@ svg[1] = initcanvas("#plot1",110);
 svg[2] = initcanvas("#plot2",110);
 svg[3] = initcanvas("#plot4",110);
 svg[4] = initcanvas("#plot3",110);
-
-height = 250 - margin.top - margin.bottom;
-var y5 = d3.scaleLinear().domain([25,0]).clamp(true).range([0,height]);
-var y5Axis = d3.axisLeft(y5).ticks(5);
-var svgboxes = initcanvas("#plotboxes",250);
 
 height = 400 - margin.top - margin.bottom;
 var yr = d3.scaleLinear().domain([0,1000]).clamp(true).rangeRound([0,height]);
@@ -141,6 +139,8 @@ d3.json("json/wta.json", function(error, data) {
   drawMap(data);
 
   drawRank(data);
+
+  drawH2H(data);
   });
 
 
@@ -396,11 +396,16 @@ function ready(error, world) {
 }
 
 function drawRank(data) {
+  height = 250 - margin.top - margin.bottom;
+  var y5 = d3.scaleLinear().domain([25,0]).clamp(true).range([0,height]);
+  var y5Axis = d3.axisLeft(y5).ticks(5);
+  var svgboxes = initcanvas("#plotboxes",250);
+
   svgboxes.selectAll(".ylabel")
       .text("years in pro");
   svgboxes.selectAll(".yaxis")
       .call(y5Axis);
-  boxes = svgboxes.selectAll(".rankbox")
+  var boxes = svgboxes.selectAll(".rankbox")
       .data(data)
     .enter()
       .append("g")
@@ -441,7 +446,6 @@ function drawRank(data) {
         .attr("fill", function(t) {
           if (t > 100) return d3.interpolatePurples(1-t/1000);
           else return d3.interpolateYlGnBu(t/100);
-          return "green";
         })
     })
 
@@ -544,6 +548,97 @@ function drawRank(data) {
             .attr('y', function(d) {return yr(d.rank[0]);})
             .text(function(d) {return d.rank[0]+": "+d.name;})
 
+}
+
+function drawH2H(data) {
+
+  var height = 1000;
+  var x = d3.scaleLinear().domain([-2,102]).range([0, width]);
+  var y = d3.scaleLinear().domain([-2,102]).range([0, height]);
+  var rank = new Array();
+  for (key in data) {
+    rank[data[key].id]=parseInt(key);
+  }
+  var surface = ["CLAY","GRASS","HARD","CARPET"];
+
+  var svg = d3.select("#h2h").append("svg")
+    .attr("width", "100%")
+    .attr("height", height)
+    .attr('transform', 'translate(' + margin.left + ',' + margin.top + ')')
+
+  d3.queue()
+    .defer(d3.json, "json/h2h.json")
+    .await(ready);
+
+  function ready(error, h2h) {
+    for(key in h2h) {
+      h2h[key].t1 = rank[h2h[key].t1];
+      h2h[key].t2 = rank[h2h[key].t2];
+      h2h[key].winner = rank[h2h[key].winner];
+      h2h[key].surface = surface.indexOf(h2h[key].surface);
+    }
+
+    if (error) console.log(error);
+    var boxes = svg.selectAll(".h2h")
+      .data(data)
+      .enter()
+      .append("g")
+      .attr("id",function(d) { return "h2h"+d.id;})
+      .attr("class", "h2h")
+    boxes.append("text")
+      .attr('text-anchor', 'end')
+      .attr('font-size', '8px')
+      .attr('x', x(10))
+      .attr('y', function(d,i) { return y(i);})
+      .text(function(d) {return d.rank[0]+": "+d.name;});
+
+    boxes.each(function(d,i) {
+      var totals = [];
+      var wins = [];
+      var m = h2h.filter(function(h) { return (h.t1 == i || h.t2 == i);});
+      for (key in m) {
+        var j = (m[key].t1 == i)? m[key].t2:m[key].t1;
+        if (totals[j] === undefined) totals[j] = 0;
+        if (wins[j] === undefined) wins[j] = 0;
+        totals[j]++;
+        wins[j] = wins[j] + ((m[key].winner == i)? 1:0);
+      }
+      console.log(totals);
+
+      d3.select("#h2h"+d.id)
+        .selectAll(".box")
+        .data(wins)
+        .enter()
+        .append("rect")
+          .attr("class","box")
+          .attr("x", function(h,j) { return x(j+11);})
+          .attr("y", y(i)-6)
+         .attr("height", y(i+1)-y(i)-1)
+          .attr("width", x(i+1)-x(i)-1)
+          .attr("stroke-width", 0.3)
+          .attr("stroke", function(t){return(t === undefined)?"white":"gray";})
+          .attr("fill", function(t,j) {
+            if (t === undefined) return "white";
+            else return d3.interpolateRdYlGn(t/totals[j]);
+          })
+          .on("mouseover", function() {
+            d3.selectAll(".h2h").style("opacity",0.15);
+            d3.selectAll("#h2h"+d.id).style("opacity",1);
+             })
+          .on("mouseout", function() {
+            d3.selectAll(".h2h").style("opacity",1);
+          })
+          .append("title")
+          .text(function(t,j) {
+             if (t === undefined) return null;
+             else return d.name+" vs. "+data[j].name+"\n"
+                        +wins[j]+" - "+(totals[j]-wins[j]);});
+
+
+      })
+
+
+  }
 }
 </script>
 </body>

@@ -63,7 +63,7 @@ body {
 </div>
 </div>
 <h2>WTA top-100 head-to-head</h2>
-Top-100 head-to-head matrix, going from all losts (full red) to all wins (full green) matches. On the right you will see the performance of the player on
+Top-100 head-to-head matrix, going from all losts (full pink) to all wins (full green) matches. On the right you will see the performance of the player on
 different surfaces and tournament rounds agains another top-100 only.
 <div>
 <svg class="h2hmain" width=100% height=1000>
@@ -562,6 +562,7 @@ function drawH2H(data) {
   var height = 1000;
   var x = d3.scaleLinear().domain([-2,102]).range([0, width-40]);
   var y = d3.scaleLinear().domain([-2,102]).range([0, height]);
+  var x0 = x(102)-1095+100;
   var rank = new Array();
   for (key in data) {
     rank[data[key].id]=parseInt(key);
@@ -569,10 +570,11 @@ function drawH2H(data) {
   var surface = ["CLAY","GRASS","HARD","CARPET"];
 
   var svg = d3.select(".h2hgroup")
-    .attr("width", "100%")
+    .attr("width", width)
     .attr("height", height)
 
-  var bigbox = d3.select(".bigbox").attr('transform', 'translate(0,-20)');
+  var bigbox = d3.select(".bigbox")
+                 .attr('transform', 'translate('+x0+',-20)');
 
   d3.queue()
     .defer(d3.json, "json/h2h.json")
@@ -667,23 +669,19 @@ function drawH2H(data) {
           .attr("stroke", function(t){return(t === undefined)?"white":"gray";})
           .attr("fill", function(t,j) {
             if (t === undefined) return "white";
-            else return d3.interpolateRdYlGn(0.25+0.75*t/totals[j]);
+            else return d3.interpolatePiYG(0.25+0.75*t/totals[j]);
           })
           .on("mouseover", function() {
             d3.selectAll(".h2h").style("opacity",0.15);
             d3.selectAll("#h2h"+d.id).style("opacity",1);
-            d3.select(".bigbox")
-              .attr("position","fixed")
-              .attr("top","0px")
-              .attr("right","100px")
 
             var mouse = d3.mouse(this);
             var bb = d3.select(".bigbox");
             
             if (mouse[1] < y(45)) {
-              bb.attr('transform', 'translate (0,-20)');
+              bb.attr('transform', 'translate ('+x0+',-20)');
             } else {
-              bb.attr('transform', 'translate (0,'+ y(40)  +')');
+              bb.attr('transform', 'translate ('+x0+','+ y(40)  +')');
             }
             updateBigBox(d.id,bysurface,byround);
              })

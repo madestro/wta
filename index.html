@@ -572,8 +572,7 @@ function drawH2H(data) {
     .attr("width", "100%")
     .attr("height", height)
 
-  var bigbox = d3.select(".bigbox")
-    .attr('transform', 'translate(0,-20)')
+  var bigbox = d3.select(".bigbox").attr('transform', 'translate(0,-20)');
 
   d3.queue()
     .defer(d3.json, "json/h2h.json")
@@ -673,6 +672,19 @@ function drawH2H(data) {
           .on("mouseover", function() {
             d3.selectAll(".h2h").style("opacity",0.15);
             d3.selectAll("#h2h"+d.id).style("opacity",1);
+            d3.select(".bigbox")
+              .attr("position","fixed")
+              .attr("top","0px")
+              .attr("right","100px")
+
+            var mouse = d3.mouse(this);
+            var bb = d3.select(".bigbox");
+            
+            if (mouse[1] < y(45)) {
+              bb.attr('transform', 'translate (0,-20)');
+            } else {
+              bb.attr('transform', 'translate (0,'+ y(40)  +')');
+            }
             updateBigBox(d.id,bysurface,byround);
              })
           .on("mouseout", function() {
@@ -689,11 +701,7 @@ function drawH2H(data) {
 
       })
   function updateBigBox(id,bysurface,byround) {
-    var bb = d3.select(".bigbox");
-    var moveTop = isScrolledTop(bb.node());
-    if (moveTop < 0) {
-      bb.attr('transform', 'translate (0,'+ (-moveTop)  +')');
-    }
+
     d3.selectAll(".surface-text")
       .data(bysurface)
       .text(function(d) { return d.w+"/"+d.t;});
@@ -710,11 +718,6 @@ function drawH2H(data) {
       })
     }
   }
-  function isScrolledTop(el) {
-    var elemTop = el.getBoundingClientRect().top;
-    return elemTop;
-  }
-  
 }
 </script>
 </body>

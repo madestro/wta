@@ -560,9 +560,9 @@ function drawRank(data) {
 function drawH2H(data) {
 
   var height = 1000;
-  var x = d3.scaleLinear().domain([-2,108]).range([0, width-40]);
-  var y = d3.scaleLinear().domain([-2,108]).range([0, height]);
-  var x0 = x(106)-1095+100;
+  var x = d3.scaleLinear().domain([-2,105]).range([0, width-40]);
+  var y = d3.scaleLinear().domain([-2,105]).range([0, height]);
+  var x0 = x(104)-1095+100;
   var rank = new Array();
   for (key in data) {
     rank[data[key].id]=parseInt(key);

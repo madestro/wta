@@ -669,7 +669,7 @@ function drawH2H(data) {
           .attr("stroke", function(t){return(t === undefined)?"white":"gray";})
           .attr("fill", function(t,j) {
             if (t === undefined) return "white";
-            else return d3.interpolatePiYG(0.25+0.75*t/totals[j]);
+            else return d3.interpolatePiYG(t/totals[j]);
           })
           .on("mouseover", function() {
             d3.selectAll(".h2h").style("opacity",0.15);

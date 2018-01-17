@@ -110,7 +110,7 @@ svg[3] = initcanvas("#plot4",110);
 svg[4] = initcanvas("#plot3",110);
 
 height = 400 - margin.top - margin.bottom;
-var yr = d3.scaleLinear().domain([0,1000]).clamp(true).rangeRound([0,height]);
+var yr = d3.scaleLog().domain([1,1000]).clamp(true).rangeRound([0,height]);
 var yrAxis = d3.axisLeft(yr).ticks(5).tickFormat(d3.format(",.0f"));
 var svgRank = initcanvas("#rank",400);
 
@@ -481,7 +481,6 @@ function drawRank(data) {
       .attr("fill", d3.interpolatePurples(1));
   svgboxes.append('text').attr('x', x(-3)).attr("y", y5(2)-1).text("1000 to 100")
 
-
   svgRank.selectAll(".xlabel")
       .text("year");
   svgRank.selectAll(".ylabel")
@@ -554,6 +553,17 @@ function drawRank(data) {
             .attr('x', width + 5)
             .attr('y', function(d) {return yr(d.rank[0]);})
             .text(function(d) {return d.rank[0]+": "+d.name;})
+
+
+  svgRank.append("line")
+.attr("class", "trendline")
+.attr("x1", function(d) { return xr(1995); })
+.attr("y1", function(d) { return yr(101); })
+.attr("x2", function(d) { return xr(2016); })
+.attr("y2", function(d) { return yr(101); })
+.attr("stroke", "gray")
+.attr("stroke-width", 1);
+
 
 }
 
